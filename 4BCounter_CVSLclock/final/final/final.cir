@@ -1,0 +1,47 @@
+* /home/nityanand.singh310/eSim-Workspace/final/final.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 03:18:45 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC5  Net-_SC5-Pad1_ Net-_SC3-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC6  Net-_SC5-Pad1_ Net-_SC3-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+v1  Net-_SC1-Pad3_ GND DC		
+SC7  Net-_SC10-Pad2_ Net-_SC5-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC8  Net-_SC10-Pad2_ Net-_SC5-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC9  Net-_SC10-Pad1_ Net-_SC10-Pad2_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC10  Net-_SC10-Pad1_ Net-_SC10-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC11  Net-_SC11-Pad1_ Net-_SC10-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC12  Net-_SC11-Pad1_ Net-_SC10-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC13  RingOscc Net-_SC11-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC14  RingOscc Net-_SC11-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC1  Net-_SC1-Pad1_ Net-_SC1-Pad2_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC2  Net-_SC1-Pad1_ Net-_SC1-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC3  Net-_SC3-Pad1_ Net-_SC1-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC4  Net-_SC3-Pad1_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+U1  RingOscc plot_v1		
+scmode1  SKY130mode		
+SC15  Net-_SC15-Pad1_ RingOscc Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC16  Net-_SC15-Pad1_ RingOscc GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC17  Net-_SC1-Pad2_ Net-_SC15-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC18  Net-_SC1-Pad2_ Net-_SC15-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC19  Net-_SC19-Pad1_ CVSLClk Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC23  CVSLClk Net-_SC19-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8_lvt		
+SC20  Net-_SC19-Pad1_ RingOscc Net-_SC20-Pad3_ Net-_SC20-Pad3_ sky130_fd_pr__nfet_01v8_lvt		
+SC21  Net-_SC20-Pad3_ Net-_SC10-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC22  CVSLClk Net-_SC11-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC24  CVSLClk Net-_SC10-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+U2  CVSLClk plot_v1		
+U4  CVSLClk reset Net-_U3-Pad1_ Net-_U3-Pad2_ adc_bridge_2		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ nityanand_counterr		
+U5  Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ O1 O2 O3 O4 dac_bridge_4		
+v2  reset GND pulse		
+U6  O1 plot_v1		
+U7  O2 plot_v1		
+U8  O3 plot_v1		
+U9  O4 plot_v1		
+U10  reset plot_v1		
+
+.end

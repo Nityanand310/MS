@@ -9,8 +9,8 @@ Incase Errors
 	circuit will not function properly if any of above is missed or changed.
 	so set the again if they are missing.
 
-3. Please contact me incase of any unresolvable error as its functioning and i am not sure if any files is not properly configured
-	nityanand.singh310@gmail.com 
+3. contact incase of any unresolvable error, if any files is not properly configured
+	nityanand.e21@nsut.ac.in
 
 Acknowledgents
 http://iitb.ac.in/
